@@ -1,0 +1,140 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font: 0.8em arial, helvetica, sans-serif;
+}
+
+#header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#header li {
+	float: left;
+	background: url(images/tabright.gif) top right no-repeat;
+	margin: 0;
+}
+
+#header a {
+	display: block;
+	background: url(images/tableft.gif) top left no-repeat;
+	color: #ffc;
+	text-decoration: none;
+	padding: 0.6em 1em 0.25em;
+}
+
+.result {
+	width: 950px;
+	border: 2px solid black;
+	background-color: Sienna;
+}
+
+.evenRow {
+	color: black;
+	background-color: SandyBrown;
+}
+
+.oddRow {
+	color: black;
+	background-color: Khaki;
+}
+
+.exception {
+	color: white;
+	font: 1.8em arial, helvetica, sans-serif;
+}
+
+#header a:hover {
+	color: white;
+}
+
+#header #selected {
+	font-weight: bold;
+	background-image: url(images/tabrightactive.gif);
+}
+
+#header #selected a {
+	background-image: url(images/tableftactive.gif);
+	color: white;
+}
+
+#content {
+	clear: both;
+	color: white;
+	background: #c60;
+	padding: 1em;
+	width: 950px;
+	height: 600px;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	color: #c60;
+	font: small-caps italic bold 1.2em arial, helvetica, sans-seif;
+	letter-spacing: 3em;
+	padding: 0 0 1em 0;
+	margin: 0;
+}
+
+.page {
+	z-index: 999;
+	position: relative;
+	top: 63px;
+}
+
+#banner {
+	z-index: 0;
+	color: brown;
+	position: absolute;
+	left: 8px;
+}
+.form_custom{
+	width: 450px;
+	height: auto;
+	border: 2px solid black;
+	background-color: tan;
+	padding:21px 5px 45px 15px;
+	}
+.back_img{
+	height:40px;
+	border:0px;
+	float:left;
+}
+.next_img{
+	height:40px;
+	border:0px;
+	float:right;
+}
+.table_center{
+margin-left: auto;
+margin-right: auto;
+
+border: thin solid Black;
+}
+.table_center_cfrm{
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+height:auto;
+border: thin solid Black;
+}
+.table_center_cfrm th{
+	background-color: brown;
+	}	
+.table_center_cfrm td{
+	padding: 10px 5px 0;
+	
+	}	
+
+.code_custom {
+padding-left: 10px;
+
+}
+.input_disabled{
+	background-color: BurlyWood;
+	}
+
