@@ -9,7 +9,7 @@
 <title>System Code Administration Home</title>
 </head>
 <body>
-
+<!-- this is header part, which have menu tabs -->
 <div id="header">
 <ul>
 <li  ><a href="SearchPage.jsp">Search</a></li>
@@ -18,7 +18,7 @@
 </ul>
 
 </div>
-
+<!-- this is content part -->
 <div id="content">
 <div id="form">
 <form class="form_custom" action="IndexSevlet" method="post">
